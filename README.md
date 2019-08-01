@@ -7,7 +7,7 @@ Homebrew repository to install Gitea on macOS.
 ## Prepare
 
 ```bash
-brew tap go-gitea/gitea
+brew tap gitea/tap https://gitea.com/gitea/homebrew-gitea
 ```
 
 ## Install
@@ -25,7 +25,7 @@ Fork -> Patch -> Push -> Pull Request
 
 ## Authors
 
-* [Maintainers](https://github.com/orgs/go-gitea/people)
+* [Maintainers](https://gitea.com/org/gitea/members)
 * [Contributors](https://github.com/go-gitea/gitea/graphs/contributors)
 
 ## License
