@@ -19,6 +19,22 @@ brew install gitea
 gitea -h
 ```
 
+## Upgrade
+
+In case you installed Gitea before v1.8.3, you still might have the old tap. In that case, you need to remove it and add the new tap via
+
+```bash
+brew untap go-gitea/gitea
+brew tap gitea/tap https://gitea.com/gitea/homebrew-gitea
+```
+
+Once you updated the tap, you can upgrade via
+
+```bash
+brew upgrade gitea
+```
+
+
 ## Contributing
 
 Fork -> Patch -> Push -> Pull Request
