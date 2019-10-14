@@ -31,7 +31,7 @@ brew tap gitea/tap https://gitea.com/gitea/homebrew-gitea
 Once you updated the tap, you can upgrade via
 
 ```bash
-brew upgrade gitea
+brew update && brew upgrade gitea
 ```
 
 
