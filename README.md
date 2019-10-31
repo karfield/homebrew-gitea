@@ -34,6 +34,17 @@ Once you updated the tap, you can upgrade via
 brew update && brew upgrade gitea
 ```
 
+## Uninstall
+
+You can uninstall Gitea with
+
+```bash
+brew uninstall gitea
+```
+
+Note that this will only uninstall the gitea binary. Your repositories, configuration, database, logs etc. are still kept in their locations (to check which folders Gitea is using, see `Site administration` -> `Configuration`).
+
+
 
 ## Contributing
 
